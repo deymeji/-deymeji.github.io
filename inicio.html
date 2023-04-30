@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/inicio.css">
+  <title>MI PORTFOLIO </title>
+
+</head>
+
+<body>
+  <!--seccioon inicio-->
+  <section id="inicio">
+    <div class="contenido">
+      <header>
+        <div class="contenido-header">
+          <h1>Dey</h1>
+          <nav id="nav" class="">
+            <ul id="link">
+              <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+              <li><a href="#sobremi" onclick="seleccionar(this)">Sobre Mi</a></li>
+              <li><a href="# habilidades" onclick="seleccionar(this)">Habilidades</a></li>
+              <li><a href="#portfolio" onclick="seleccionar(this)">Portfolio</a></li>
+              <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+            </ul>
+          </nav>
+          <!--Iconos del menu reponsive-->
+          <div id="icono-nav" onclick="responsiveMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <!--Iconos de las redes sociales-->
+          <div class="redes">
+            <a href="https://www.facebook.com/deicy.mejias/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/deicydavid/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/deycis-mejias/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.link/u17cez"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </header>
+      <div class="presentacion">
+        <p class="bienvenido">BIENVENIDO</p>
+        <h2>Soy <span>Deycis Mejias </span>Desarrollador Full Stack</h2>
+        <p class="descripcion">Soy una persona amable, calmada, cordial, agradable, tierna, leal y cariñosa y me gusta
+          aprender cosas nuevas .</p>
+        <a href="#portfolio">Ir a portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!--seccion sobre mi-->
+  <section id="sobremi">
+    <div class="contenedor-foto">
+      <img src="imagen/20220528_111336.jpg" alt="">
+    </div>
+    <div class="sobremi">
+      <p class="titulo-seccion">Sobre mi</p>
+      <h2>Hola soy <span> Deycis Mejias</span></h2>
+      <p>Me considero una persona con alto grado de responsabilidad sobre mis tareas asignadas. Me caracterizo por
+        cumplir mis metas de forma eficaz y puntual. Mi objetivo es conseguir un puesto de trabajo que me permita
+        aplicar mis experiencias, para así desarrollarme profesionalmente para un buen desempeño en las labores
+        asignadas.
+      </p>
+
+      <!--<a href="https://www.canva.com/design/DAFWnoSCF9A/TUhHX5P-3l9RmpPLcbCmEw/view?utm_content=DAFWnoSCF9A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Descargar CV</a>-->
+      <a href="imagen/cv1.jpg" ">Descargar CV</a>
+        </div>
+</section>
+
+ <!--seccion habilidades-->
+   <section id=" habilidades">
+        <div class="contenedor-skills" id="skills">
+          <h3>HABILIDADES</h3>
+          <div class="skill">
+
+            <a href="#"><i class="fa-brands fa-html5"></i></a>
+            <a href="#"><i class="fa-brands fa-css3-alt"></i></a>
+            <a href="#"><i class="fa-brands fa-js"></i></a>
+            <a href="#"><i class="fa-brands fa-python"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-figma"></i></a>
+
+          </div>
+
+
+  </section>
+  <!--seccion portfolio-->
+
+  <section id="portfolio">
+    <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+
+    <div class="contenedor-proyecto">
+      <div id="primero">
+        <div class="card">
+
+          <img class="imagen" src="imagen/calcula.png" alt="">
+          <div class="info">
+            <p>Diseño Web: Html. Css. Js.</p>
+          </div>
+        </div><br><br>
+        <div class="card">
+
+          <img class="imagen" src="imagen/ceja.png" alt="">
+          <div class="info">
+            <p>Diseño Web: Html. Css. </p>
+          </div>
+        </div><br><br>
+        <div class="card">
+          <img class="imagen" src="imagen/juego_js.png" alt="">
+          <div class="info">
+            <p>Diseño Web: Html. Css. Js.</p>
+          </div>
+        </div><br><br>
+      </div>
+
+      <div id="segundo">
+        <div class="card">
+
+          <img class="imagen" src="imagen/portafolio1.png" alt="">
+          <div class="info">
+            <p>Diseño Web: Html. Css. Js.</p>
+          </div>
+        </div><br><br>
+        <div class="card">
+
+          <img class="imagen" src="imagen/menu_reponsive.png" alt="">
+          <div class="info">
+            <p>Diseño Web: Html. Css. Js.</p>
+          </div>
+        </div><br><br>
+        <div class="card">
+
+          <img class="imagen" src="imagen/negocio1.png" alt="">
+          <div class="info">
+            <p>Diseño Web: Html. Css.</p>
+          </div>
+        </div><br><br>
+      </div>
+
+      <div id="tercero">
+
+        <div class="card">
+
+          <img class="imagen" src="imagen/verdu.png" alt="">
+          <div class="info">
+            <p>Diseño Web: Html. Css. Js.</p>
+          </div>
+        </div><br><br>
+        <div class="card">
+
+          <img class="imagen" src="imagen/Diseño.png" alt="">
+          <div class="info">
+            <p>Diseño Web: Html. Css. Js.</p>
+          </div>
+        </div><br><br>
+        <div class="card">
+
+          <img class="imagen" src="imagen/cesta.jpg" alt="">
+          <div class="info">
+            <p>Diseño Web: Html. Css. Js.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--seccion contacto-->
+  <section id="contacto">
+    <div class="col-md-8 templatemo_contactform">
+      <h3 class="titulo-seccion"> Contactanos ahora</h3>
+      <div class="contenedor-form">
+        <form method="post">
+            <div class="fila mitad">
+                <input type="text" placeholder="Nombre Completo *" name= "name" required="" class="input-mitad">
+                <input type="email" placeholder="Dirección de Email" name= "email" required="" class="input-mitad">
+            </div>
+            <div class="fila">
+                <input type="text" placeholder="Telefono" name="phone" required="" class="input-full">
+            </div>
+            <div class="fila">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." name="msg" required="" class="input-full"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar Mensaje" name="enviar" class="btn-enviar">
+        </form>
+    </div>
+
+
+  </section>
+  <!--seccion footer-->
+  <footer>
+    <div id="contene">
+
+      <p>Todos los derechos reservados - 2022</p>
+      <div class="redes">
+        <a href="https://www.facebook.com/deicy.mejias/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/deycis-mejias/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/deicydavid/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.link/u17cez"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+
+
+    </div>
+  </footer>
+  <script src="js/archivo.js"></script>
+  <?php 
+  include("correo.php");
+</body>
+
+</html>
