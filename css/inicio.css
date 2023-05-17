@@ -132,12 +132,12 @@ background-color: #ff5080 ;
     display: flex;
 }
 #sobremi .contenedor-foto{
-    max-width: 400px;
+    max-width: 300px;
     margin-right: 80px;
 }
 #sobremi .contenedor-foto img{
     padding: 20px;
-    width: 150%;
+    width: 120%;
     border-radius: 20px;
     background-color: rgb(223, 32, 118);
 }
